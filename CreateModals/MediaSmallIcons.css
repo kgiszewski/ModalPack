@@ -1,0 +1,60 @@
+.mediaTypeID{
+    display: none;
+}
+
+.mediaTypeWrapper{
+    margin-bottom: 20px;
+    height: 110px;
+    overflow: auto;
+}
+
+.mediaType{
+    width: 175px;
+    overflow: hidden;
+    padding:5px;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.mediaType img.large{
+   display: none;
+}
+
+.mediaType img.small{
+    float: left;
+    margin-right: 5px;
+}
+
+.mediaType div{
+    
+}
+
+.selected{
+    background-color: #00ff00;
+}
+
+.header{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.header label{
+    margin-right: 5px;
+}
+
+.header div{
+    margin-top: 8px;
+}
+
+.header input{
+    width: 345px;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.footer{
+    clear: both;
+    text-align: right;
+}

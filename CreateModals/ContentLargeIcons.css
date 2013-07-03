@@ -1,0 +1,63 @@
+.docTypeID{
+    display: none;
+}
+
+.docTypeWrapper{
+    margin-bottom: 20px;
+    height: 270px;
+    overflow: auto;
+}
+
+.docType{
+    width: 165px;
+    height: 75px;
+    float: left;
+    overflow: hidden;
+    padding:5px;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.docType img.large{
+    width: 75px;
+    float: left;
+    margin-right: 3px;
+}
+
+.docType img.small{
+    display: none;
+}
+
+.docType div{
+    
+}
+
+.selected{
+    background-color: #00ff00;
+}
+
+.header{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.header label{
+    margin-right: 5px;
+}
+
+.header div{
+    margin-top: 8px;
+}
+
+
+.header input{
+    width: 505px;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.footer{
+    clear: both;
+    text-align: right;
+}
